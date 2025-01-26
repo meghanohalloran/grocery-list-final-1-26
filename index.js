@@ -22,6 +22,22 @@ var toUpperCase = array.map(function(name) { return name.toUpperCase(); });
 console.log(toUpperCase);
 
 
+const items = [
+  {id:1, item: "apple"}, {id:2, item: "banana"}, {id:3, item: "orange"}, {id:4, item: "broccoli"}, {id:5, item: "milk"}, {id:6, item: "cheddar"}, {id:7, item: "sourdough"}];
+
+const foundItem = findItemById(item, id);
+
+
+console.log(foundItem);
+
+
+
+
+
+
+
+
+
 // logNames => Takes in an array of items and console.logs the name of each item in the given array. Hint: use .forEach
 // 
 // getUpperCaseNames => Takes in an array of items and returns an array of item names in all uppercase. Hint: use .map
